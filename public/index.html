@@ -27,14 +27,14 @@
                 </video>
             </div>
             <div class="controller flex justify-center items-center w-5/6 bg-gray-900 rounded-b-lg lg:w-2/3">
-                <button class="mx-1 lg:mr-2">
+                <button class="mx-1 lg:mr-2" id="playBtn">
                     <i class="fa fa-play text-green-500 lg:fa-2x"></i>
                 </button>
-                <button class="mx-1 lg:mr-2">
+                <button class="mx-1 lg:mr-2" id="stopBtn">
                     <i class="fa fa-stop text-red-500 lg:fa-2x"></i>
                 </button>
-                <input type="range" class="px-1 lg:px-2" min="0" max="100" step="0.1" value="0"/>
-                <span class="text-white pr-1 lg:pr-2">00:00</span>
+                <input type="range" class="px-1 lg:px-2" id="progressBar" min="0" max="100" step="0.1" value="0"/>
+                <span class="text-white" id="timeStamp">00:00</span>
             </div>
         </div>
     </div>
